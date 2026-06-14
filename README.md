@@ -4,6 +4,7 @@ A cozy productivity companion built with HTML, CSS and JavaScript.
 
 ## 🚀 Live Demo
 
+🔗 https://starcodersc.github.io/taskforge/
 
 ## 📸 Preview
 
