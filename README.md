@@ -4,6 +4,20 @@ A cozy productivity companion built with HTML, CSS and JavaScript.
 
 ## 🚀 Live Demo
 
+
+## 📸 Preview
+
+### Main Page
+
+![TaskForge Main](images/main-page.png)
+
+### Recycle Bin
+![Reecycle Bin](images/recycle-bin.png)
+
+### SideBar
+
+![Sidebar](images/sidebar.png)
+
 ## ✨ Features
 
 - 📝 Add tasks
@@ -39,7 +53,7 @@ The project started as a basic todo list and gradually evolved into a future-ric
 
 Built with 💛 by Staroder
 
-GitHub://github.com/StarCoderSC
+GitHub:https://github.com/StarCoderSC
 
 ---
 
