@@ -1,0 +1,149 @@
+body {
+  background-color: hsl(0, 0%, 10%);
+  color: white;
+  font-family: Arial;
+  padding: 40px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 900px;
+  margin:auto;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.input-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.task-input,
+.date-input {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-size: 16px;
+}
+
+.add-btn {
+  background-color: rgb(0,150,255);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.add-btn:hover {
+  transform: scale(1.05);
+}
+
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(35, 35, 35);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.05);
+  transition: 0.3s;
+}
+
+.todo-card:hover {
+  transform: translateY(-5px);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
+
+.task-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.task-date {
+  color: gray;
+  margin-top: 8px;
+}
+
+.edit-del-btn {
+  display: flex;
+  gap: 15px;
+}
+
+.delete-btn {
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+
+.empty-card {
+  background-color: rgb(35, 35, 35);
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.empty-card p {
+  color: gray;
+}
+
+.warning {
+  color: red;
+  margin-top: 10px;
+}
+
+.date-time-panel {
+  color: rgb(118, 198, 174);
+  font-size: 20px;
+  padding: 5px 25px;
+  width: 260px;
+  transition: 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.date-time-panel:hover {
+  transform: translateY(-5px);
+}

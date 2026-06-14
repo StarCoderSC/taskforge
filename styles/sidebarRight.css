@@ -1,0 +1,105 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date-panel {
+  background-color: rgb(35, 35, 35);
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.current-time {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(0, 255, 170);
+}
+
+.current-day {
+  color: white;
+  font-size: 20px;
+}
+
+.current-date {
+  color: gray;
+}
+
+.js-stats-panel {
+  background-color: rgb(35, 35, 35);
+  padding: 5px 25px;
+  width: 260px;
+  border-radius: 25px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,150,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.js-stats-panel:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(0,150,255,0.4);
+}
+
+.statistics-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: rgb(0,200,255);
+  text-align: center;
+}
+
+.stat-card {
+  background-color: rgb(45, 45, 45);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+.stat-card:hover {
+  transform: scale(1.03);
+}
+
+.stat-number {
+  font-size: 30px;
+  font-weight: bold;
+  color:rgb(0,255,170);
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.stat-label {
+  color: gray;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.greeting-panel {
+  background-color: rgb(35, 35, 35);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 220, 100, 0.15);
+}
+
+.greeting {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 220, 100);
+}
+
+.quote-panel {
+  background-color: rgb(35, 35, 35);
+  padding: 15px;
+  border-radius: 20px;
+  max-width: 300px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.quote {
+  color: rgb(180, 180, 180);
+  font-style: italic;
+  line-height: 1.8;
+}

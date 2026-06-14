@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> To-Do List Deluxe</title>
+    <link rel="stylesheet" href="styles/todo.css">
+    <link rel="stylesheet" href="styles/edit.css">
+    <link rel="stylesheet" href="styles/sidebarRight.css">
+    <link rel="stylesheet" href="styles/greeting.css">
+    <link rel="stylesheet" href="styles/sidebar-left.css">
+    <link rel="stylesheet" href="styles/footer.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 class="title"> To-Do List Deluxe</h1> 
+      <p class="subtitle">Stay Productive, StarCoder!</p>
+    </div>
+    <button class="menu-btn js-menu-btn">
+      ☰
+    </button>
+    <div class="sidebar-left js-sidebar-left">
+
+      <div class="menu-item search-btn js-search-btn">
+        🔎 Search
+      </div>
+      <input class="search-input js-search-input" placeholder="Search tasks...">
+
+      <div class="bin-header js-bin-header">
+        <span class="js-bin-arrow">
+          ▸
+        </span>
+        🗑️ Bin(<span class="js-bin-count">0</span>)
+      
+      </div>
+
+      <div class="bin-panel js-bin-panel">
+        <div class="js-deleted-tasks"></div>
+      </div>
+
+      <div class="about-header js-about-header">
+        <span class="js-about-arrow">
+          ▸
+        </span>
+        &#105; About
+      </div>
+      <div class="about-panel js-about-panel">
+      </div>
+    </div>
+    
+    <div class="page">
+      <div class="todo-section">
+
+        <div class="input-section">
+
+          <input class="task-input js-task-input" type="text" placeholder="ToDo name">
+          <input class="date-input js-due-date-input" type="date">
+          <button class="add-btn js-add-btn">Add Task</button>
+
+        </div>
+
+        <p class="js-warning warning"></p>
+
+        <div class="js-todo-list"></div>
+      </div>
+
+      <div class="sidebar">
+        <div class="greeting-panel">
+          <p class="greeting js-greeting"></p>
+        </div>
+
+        <div class="js-stats-panel"></div>
+
+        <div class="quote-panel">
+          <p class="quote js-quote"></p>
+        </div>
+
+        <div class="date-panel js-date-panel"></div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <hr>
+
+      <p>
+        Built with 💛 by StarCoder
+      </p>
+
+      <p>
+        @2026 All rights Reserved
+      </p>
+
+      <a>
+       🐙 Github
+      </a>
+    </div>
+
+    <script src="scripts/todo.js"></script>
+  </body>
+</html>

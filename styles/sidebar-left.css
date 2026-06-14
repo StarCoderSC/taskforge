@@ -1,0 +1,189 @@
+.sidebar-left {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100dvh;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: rgb(35, 35, 35);
+  padding: 25px;
+  z-index: 100;
+}
+
+.sidebar-left-open {
+  left: 0;
+}
+
+.menu-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 25px;
+  border: none;
+  background: none;
+  color: white;
+  z-index: 101;
+}
+
+.bin-header,
+.about-header,
+.menu-item {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 170px;
+}
+
+.bin-header:hover,
+.about-header:hover,
+.menu-item:hover {
+  background-color: rgb(55, 55, 55);
+}
+
+.bin-panel {
+  background-color: rgb(35, 35, 35);
+  padding: 10px;
+  border-radius: 25px;
+  display: none;
+}
+
+.bin-open {
+  display: block;
+}
+
+.deleted-card {
+  background-color: rgb(45, 45, 45);
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+  opacity: 0.8;
+  border-left: 5px solid crimson;
+}
+
+.restore-button {
+  background-color: rgb(0,180,120);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+.restore-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 170, 0.4);
+}
+
+.permanent-delete-btn {
+  background-color: crimson;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 12px;
+  border: none;
+  transition: 0.2s;
+}
+
+.permanent-delete-btn:hover {
+  background-color: red;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+.empty-bin-button {
+  background-color: rgb(180, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+.empty-bin-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.empty-bin-card {
+  background-color: rgb(40, 40, 40);
+  padding: 40px;
+  border-radius: 24px;
+  text-align:center;
+  margin-top: 10px;
+  border: 1px solid rgb(255, 255, 255, 0.08);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.03);
+}
+
+.empty-bin-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+  margin-bottom: 15px;
+}
+
+.empty-bin-message {
+  color: gray;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.search-input {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+.search-btn:hover {
+  opacity: 0.5;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.5);
+}
+
+.empty-search-card {
+  background-color: rgb(40, 40, 40);
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.empty-search-card h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.empty-search-card p {
+  color: gray;
+}
+
+.about-panel {
+  background-color: rgb(35, 35, 35);
+  padding: 30px;
+  border-radius: 25px;
+  line-height: 1.4;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  display: none;
+}
+
+.about-open {
+  display: block;
+}
+
+.about-panel h2 {
+  color: rgb(0, 255, 170);
+}
+
+.about-panel p {
+  font-size: 16px;
+  color: gray;
+}

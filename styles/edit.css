@@ -1,0 +1,92 @@
+.edit-button {
+  background-color: rgb(0, 150, 255);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.edit-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.5);
+}
+
+.edit-card {
+  background-color: rgb(40, 40, 40);
+  border: 2px solid rgba(0, 150, 255, 0.4);
+  padding: 25px;
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 20px rgba(0, 150, 255, 0.2);
+  animation: fadeln 0.3s;
+}
+
+@keyframes fadeln{
+  from{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.edit-name-input,
+.edit-date-input {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-name-input:focus,
+.edit-date-input:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.6);
+}
+
+.edit-name-input {
+  margin-top: 15px;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.save-btn {
+  background-color: rgb(0, 180, 120);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  transition: 0.2s
+}
+
+.save-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 170, 0.5);
+}
+
+.cancel-btn {
+  background-color: rgb(80, 80, 80);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.cancel-btn:hover {
+  background-color: rgb(100,100,100);
+}

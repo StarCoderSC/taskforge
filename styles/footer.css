@@ -1,0 +1,20 @@
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+.footer p {
+  color: gray;
+  line-height: 1.4
+}
+
+.footer a {
+  color: rgb(0. 200. 255);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer a:hover {
+  color: rgb(0, 255, 170);
+}
